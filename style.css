@@ -84,7 +84,7 @@ nav ul li:hover {
 }
 .page-content .presentation-image img {
     max-width: 100%;
-    height: auto;
+   
 }
 .page-content .project-section {
     margin-top: 6%;
@@ -98,11 +98,11 @@ nav ul li:hover {
     flex-wrap: wrap;
 }
 .page-content .project-section .projects .project {
-    margin-right: 20px;
+    margin-right: 110px;
     max-width: 195px;
 }
 .page-content .project-section .projects .project .description {
-    font-size: 10px;
+    font-size: 13px;
 
 }
 .page-content .project-section .projects .project .dates {
@@ -114,12 +114,14 @@ footer {
     margin-top: 5%;
     display: flex;
     justify-content: space-around;
-    background-color: black;
+    background-color: darkgray;
     color: white;
     padding: 10px;
 }
-footer .column a{
-    text-decoration: none;
+footer .column img{
+    width: 50px;
+    border-radius: 40px;
+    
 }
 footer .column p {
     font-size: 12px;
