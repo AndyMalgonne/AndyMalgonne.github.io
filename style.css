@@ -6,8 +6,9 @@ body {
     font-family: 'Poppins';
 }
 
-a:link {
+nav a{
     text-decoration: none;
+    color: black;
 }
 nav {
     display: flex;
@@ -89,6 +90,9 @@ nav ul li:hover {
 .page-content .project-section {
     margin-top: 6%;
 }
+.page-content .project-section li {
+    font-size: 13px;
+}
 .page-content .project-section h1 {
     text-transform: uppercase;
     font-size: 3vw;    
@@ -98,12 +102,11 @@ nav ul li:hover {
     flex-wrap: wrap;
 }
 .page-content .project-section .projects .project {
-    margin-right: 110px;
-    max-width: 195px;
+    margin-right: 150px;
+    max-width: 300px;
 }
 .page-content .project-section .projects .project .description {
     font-size: 13px;
-
 }
 .page-content .project-section .projects .project .dates {
     font-size: 13px;
