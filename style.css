@@ -5,3 +5,36 @@ body {
     margin: 0;
     font-family: 'Poppins';
 }
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    position: sticky;
+    background-color: white;
+    top: 0%;
+}
+
+nav .profile {
+    display: flex;
+    align-items: center;
+}
+nav .profile img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+nav .profile h1 {
+    font-size: 20px;
+    margin-left: 10px;
+}
+nav ul {
+    display: flex;
+    list-style-type: none;
+}
+nav ul li {
+    margin-left: 20px;
+    cursor: pointer;
+}
